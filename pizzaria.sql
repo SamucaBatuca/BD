@@ -4,7 +4,7 @@ create table Item (
     categItem char[50] NOT NULL
 );
 
-create table Cidade (
+create table Local (
     codCidade int PRIMARY KEY,
     UF char[2] NOT NULL,
     cidade char[50] NOT NULL
